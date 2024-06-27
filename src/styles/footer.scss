@@ -1,5 +1,5 @@
-@import "../styles/utils/typography";
-@import "../styles/utils/mixins";
+@import "./utils/typography";
+@import "./utils/mixins";
 
 .footer {
 
@@ -87,7 +87,14 @@
     color: $paragraph-color;
     border-top: 1px solid $copyright-color;
     padding-top: 31px;
-    padding-bottom: 30px;
     margin-top: 30px;
+
+    @include onPhone {
+      padding-bottom: 30px;
+    }
+
+    @include onTablet {
+      padding-bottom: 30px;
+    }
   }
 }
