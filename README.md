@@ -1,1 +1,1 @@
-    - [DEMO LINK](https://RodionSav.github.io/mask-test-site/)
+ [DEMO LINK](https://RodionSav.github.io/mask-test-site/)
