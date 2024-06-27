@@ -21,7 +21,6 @@
   }
 
   &__item {
-    @extend %open-sans-400;
     font-size: 15px;
     line-height: 30px;
     color: $paragraph-color;
@@ -81,7 +80,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    @extend %open-sans-400;
     font-size: 14px;
     line-height: 30px;
     color: $paragraph-color;

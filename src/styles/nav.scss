@@ -3,7 +3,6 @@
   background-color: $button-and-back-color;
 
   &__item {
-    @extend %open-sans-400;
     font-size: 30px;
     line-height: 30px;
     font-weight: 400;

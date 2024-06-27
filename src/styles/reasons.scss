@@ -51,7 +51,6 @@
     }
 
     &__paragraph {
-      @extend %open-sans-400;
       font-size: 15px;
       line-height: 22px;
       color: $paragraph-color;

@@ -78,7 +78,6 @@
   }
 
   &__paragraph {
-    @extend %open-sans-400;
     font-size: 16px;
     line-height: 30px;
     color: $paragraph-color;
@@ -90,7 +89,6 @@
   }
 
   &__button {
-    @extend %open-sans-400;
     display: flex;
     justify-content: center;
     align-items: center;
