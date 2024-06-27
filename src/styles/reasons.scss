@@ -19,6 +19,16 @@
     }
   }
 
+  &__title {
+    @include onPhone {
+      margin-top: 20px;
+    }
+
+    @include onTablet {
+      margin-top: 40px;
+    }
+  }
+
   &__paragraph {
     margin-top: 35px;
   }

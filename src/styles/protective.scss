@@ -24,6 +24,12 @@
     position: relative;
     z-index: 1000;
 
+    @include onTablet {
+      display: flex;
+      gap: 20px;
+      justify-content: space-between;
+    }
+
     @include onDesktop {
       display: flex;
       justify-content: space-between;
@@ -105,6 +111,18 @@
     &-container {
       margin-top: 72px;
 
+      @include onPhone {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+
+      @include onTablet {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+
       @include onDesktop {
         display: flex;
       }
@@ -135,5 +153,17 @@
   &-img {
     position: relative;
     bottom: 4px;
+
+    @include onPhone {
+      width: 100%;
+    }
+
+    @include onTablet {
+      width: 240px;
+      max-width: 100%;
+      object-fit: contain;
+    }
+
+    
   }
 }
